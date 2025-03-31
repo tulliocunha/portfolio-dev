@@ -46,6 +46,8 @@
 }
 
 #skills {
+    grid-template-columns: repeat(6, max-content);
+    justify-content: center;
     div {
         grid-template-columns: max-content 1fr;
         background: var(--base-gray-300);
