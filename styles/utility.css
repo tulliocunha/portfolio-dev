@@ -29,6 +29,7 @@
     font: var(--title-sm)
 }
 .subtitle {
+    margin-bottom: 8px;
     font: var(--subtitle)
 }
 .text-md {

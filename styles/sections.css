@@ -35,10 +35,13 @@
 #hero-text {
     margin-top: 56px;
     h1 {
-        margin-block: 8px 20px;
+        margin-bottom: 20px;
     }
     span {
         color: var(--main-red);
+    }
+    .subtitle {
+        color: var(--base-gray-500);
     }
     p:nth-child(3) {
         color: var(--base-gray-400);
@@ -57,3 +60,32 @@
     }
 }
 
+#work {
+    padding-block: 72px 144px;
+    gap: 56px;
+    .subtitle {
+        color: var(--main-red);
+    }
+    div {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+}
+
+.card {
+    border-radius: 12px;
+    text-align: left;
+    background-color: var(--base-gray-300);
+    padding: 12px;
+    img {
+        border-radius: 8px;
+        margin-bottom: 20px;
+        object-fit: cover;
+    }
+    p {
+        color: var(--base-gray-500);
+    }
+    figcaption {
+        padding: 4px;
+    }
+}
