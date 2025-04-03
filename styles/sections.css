@@ -97,3 +97,26 @@
         padding: 4px;
     }
 }
+
+#services {
+    padding-block: 88px 120px;
+    gap: 56px;
+    background-color: var(--base-gray-100);
+    .subtitle {
+        color: var(--main-red);
+    }
+}
+
+.card-service {
+    border-radius: 12px;
+    text-align: left;
+    border: solid 2px var(--base-gray-200);
+    padding: 20px;
+    figcaption {
+        margin-top: 20px;
+    }
+    p {
+        margin-top: 8px;
+        color: var(--base-gray-500);
+    }
+}
