@@ -3,10 +3,11 @@
     background-size: cover;
     justify-items: center;
     gap: 94px;
+    padding-block: 120px 56px;
 }
 
 #hero header {
-    margin-block:  120px 80px;
+    margin-block: 0px 80px;
 }
 
 #avatar {
@@ -69,6 +70,13 @@
     div {
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr;
+    }
+    a {
+        border: solid 1.5px transparent;
+        transition: all 0.2s linear;
+    }
+    a:hover {
+        border: solid 1.5px var(--base-gray-400);
     }
 }
 
