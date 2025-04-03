@@ -1,6 +1,7 @@
 #hero {
     background-image: url(../assets/images/Background_Intro.png);
     background-size: cover;
+    background-position: center;
     justify-items: center;
     gap: 94px;
     padding-block: 120px 56px;
@@ -118,5 +119,46 @@
     p {
         margin-top: 8px;
         color: var(--base-gray-500);
+    }
+}
+
+svg path {
+    fill: var(--base-gray-400);
+    transition: all 0.2s linear;
+}
+
+#contact {
+    padding-block: 128px 200px;
+    background-image: url(../assets/images/Background_Intro.png);
+    background-size: cover;
+    background-position: center;
+    gap: 48px;
+    p {
+        color: var(--base-gray-500);
+    }
+    .subtitle {
+        color: var(--main-purple);
+    }
+    h2 {
+        margin-bottom: 8px;
+    }
+    a {
+        grid-template-columns: max-content 1fr max-content;
+        gap: 12px;
+        background-color: var(--base-gray-300);
+        border: solid 1.5px transparent;
+        transition: all 0.2s linear;
+        border-radius: 8px;
+        padding: 20px;
+        width: 400px;
+        text-align: left;
+        color: var(--base-gray-500);
+        align-items: center;
+    }
+    a:hover {
+        border: solid 1.5px var(--main-blue);
+        svg path {
+            fill: var(--main-blue);
+        }
     }
 }
